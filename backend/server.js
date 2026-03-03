@@ -23,7 +23,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://chat-application-peach-xi.vercel.app",
+      "https://chat-application-ruby-nine.vercel.app",
     ],
     methods: ["GET", "POST"],
     credentials: true,
@@ -67,7 +67,7 @@ const io = new Server(httpServer, {
   cors: {
     origin: [
       "http://localhost:5173",
-      "https://chat-application-peach-xi.vercel.app",
+      "https://chat-application-ruby-nine.vercel.app",
     ],
     methods: ["GET", "POST"],
     credentials: true,
